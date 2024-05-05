@@ -1,0 +1,805 @@
+    body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.backgroundimg{
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+.bgimg {
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    transform: scale(1.2);
+}
+
+.navbar{
+    position: absolute;
+    top: 19px;
+    left: 176px;
+    z-index: 1;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.logo {
+    /* position: relative; */
+    height: 46px;
+    width: 143px;
+    z-index: -1;
+    margin-right: 799px;
+}
+
+.signin{
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 35px;
+    width: 84px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    top: -17px;
+}
+
+#Languages {
+    background-color: #0000007a;
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    top: -17px;
+}
+
+.icon {
+    height: 10px;
+    width: 10px;
+}
+
+.mainheading {
+    position: absolute;
+    /* z-index: -3s; */
+    top: 245px;
+    color: white;
+    left: 314px;
+    text-align: center;
+}
+
+hr {
+    background-color: #2b2a2a;
+    height: 10px;
+    margin: 0px;
+    width: 100wh;
+    padding: 0px;
+    border: none;
+    position: relative;
+    /* top: -3px; */
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 10000;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.secondheading {
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 155px;
+}
+
+.thirdheading {
+    font-weight: 400;
+    font-size: 22px;
+    margin:0px 156px;
+    /* padding-top: 10px; */
+}
+
+.email {
+    /* background-color: red; */
+    position: absolute;
+    top: 483px;
+
+}
+
+
+.submit {
+    position: absolute;
+    left: 865px;
+    height: 61px;
+    width: 100px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width:184px;
+    font-size: 25px;
+}
+
+.emailaddress{
+    position: absolute;
+    left: 458px;
+    padding: 8px;
+    background-color: #0000007a;
+    width: 385px;
+    height: 42px;
+    border-radius: 5px;
+    color: rgb(155, 154, 154);
+    text-align: left;
+    font-size: 19px;
+    border: 1 px rgb(155, 155, 155);
+    /* border-color: ; */
+    margin-right: 10px;
+}
+
+.TV{
+    width: 537px;
+    height: auto;
+    margin: auto;
+    /* display: inline-table; */
+    
+}
+
+h2 {
+    font-size: 45px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.title{
+    position: relative;
+    top: -234px;
+    height: 100px;
+    width: 384px;
+    margin-left: 248px;
+    display: inline-table;
+    /* background-color: red; */
+}
+
+.About{
+    margin: 0px 0px;
+    height: 100px;
+    margin-top: 85px;
+}
+
+.tvpng{
+    display: inline;
+    position: relative;
+    left: 55px;
+    top: -16px;
+}
+
+#firstvideo{
+    position: relative;
+    top: -497px;
+    left: 866px;
+    width: 391px;
+    height: 303px;
+    z-index: -1;
+}
+
+#secondhr{
+    background-color: #2b2a2a;
+    height: 10px;
+    margin: 0px;
+    width: 100wh;
+    padding: 0px;
+    border: none;
+    position: relative;
+    top: -356px;
+    object-fit: cover;
+}
+
+p{
+    font-size: 24px;
+    width: 548px;
+    font-weight: 400;
+}
+
+.Third{
+    /* background-color: blue; */
+    position: relative;
+    top: 258px;
+}
+
+.stranger{
+    position: relative;
+    left: 179px;
+    height: 414px;
+    width: 566px;
+    top: 216px;
+}
+
+.containers{
+    position: relative;
+    background-color: rgb(7 7 7);
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 100px;
+    width: 307px;
+    left: 306px;
+    top: 84px;
+    z-index: 1;
+}
+
+.boxshot{
+    position: relative;
+    height: 84px;
+    width: 52px;
+    top: -11px;
+    left: 317px;
+    z-index: 2;
+}
+
+.box{
+    font-size: 16px;
+    position: relative;
+    margin: 17px 78px;
+    top: 13px;
+}
+
+#Downloading{
+    color: rgb(16, 124, 233);
+    position: relative;
+    font-size: 14px;
+    top: -67px;
+    left: 386px;
+    z-index: 3;
+}
+
+#icon{
+    height: 52px;
+    width: auto;
+    z-index: 3;
+    position: relative;
+    top: -125px;
+    left: 546px;
+    
+}
+
+.offline{
+    width: 541px;
+    position: relative;
+    top:-441px;
+    margin: 0px 766px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.para{
+    width: 595px;
+}
+
+#thirdhr{
+    background-color: #2b2a2a;
+    height: 10px;
+    margin: 0px;
+    width: 100wh;
+    padding: 0px;
+    border: none;
+    position: relative;
+    top: -254px;
+    object-fit: cover;  
+}
+
+.Fourth{
+    height: 577px;
+    width: auto;
+    margin: 0px 180px;
+}
+
+.everywhere{
+    position: relative;
+    top: 177px;
+}
+
+#Fourth{
+    position: relative;
+    top: 181px;
+}
+
+.device{
+    position: relative;
+    left: 593px;
+    height: 328px;
+    top: -132px;
+    width: 100px;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+#dev{
+    height: 440px;
+    /* width: auto; */
+    /* z-index: 1; */
+}
+
+.Fvideo{
+    position: relative;
+    left: 100px;
+    height: 212px;
+    width: 380px;
+    top: -395px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.fourthvideo{
+    position: relative;
+    left: 100px;
+    /* height: 212px; */
+    top: -399px;
+    z-index: -1;
+    transform:scale(1.2);
+}
+#Fhr{
+    background-color: #2b2a2a;
+    height: 10px;
+    margin: 0px;
+    width: 100wh;
+    padding: 0px;
+    border: none;
+    position: relative;
+    top: -65px;
+    object-fit: cover;
+}
+
+.kids{
+    position: relative;
+    left: 175px;
+    transform: scale(0.9);
+}
+
+#profilekids{
+    position: relative;
+    left: 819px;
+    top: -384px;
+    display: inline-block;
+}
+
+#kpara{
+    position: relative;
+    left:819px;
+    top:-401px;
+    /* margin: 0px 0px; */
+    display: block;
+}
+
+#khr{
+    background-color: #2b2a2a;
+    height: 10px;
+    margin: 0px;
+    width: 100wh;
+    padding: 0px;
+    border: none;
+    position: relative;
+    top: -198px;
+    object-fit: cover;
+}
+/*
+ .FAQ{
+    display: flex;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    align-items: center;
+    margin: 0px 0px;
+} 
+*/
+.FAQ li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    /* display: inline-block; */
+    position: relative;
+    left: -11px;
+}
+
+.FAQ li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 450;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: relative;
+    right: 20px;
+}  
+
+.container{
+    display: flex;   
+    /* align-items: center; */
+    position: relative;
+    width: 1169px; 
+    /* border: none; */
+    top: -134px;
+    left: 128px;
+    max-height:0px;
+    overflow: hidden;
+    background-color: #303030;
+    padding-left: 28px;
+} 
+
+input[type="checkbox"]{
+        display:none;
+} 
+
+input[type="checkbox"] :checked ~ .container{
+    height:600px;
+    /* height:auto; */
+}
+
+/* .content{
+    max-height: 0px;
+} */
+/* .ul{
+    width: 650px;
+    background-color: rebeccapurple;
+} */
+/* ?????????????????????????????????????????????????????????????????????FAQ section?????????????????????????????????????? */
+.FAQ h1{
+    position: relative;
+    left: 452px;
+    display: inline-block;
+    top: -167px;
+}
+
+.FAQ li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 31px;
+    font-weight: -37px;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    width: 1157px;
+    top: -134px;
+    left: 128px;
+    height: 52px;
+}  
+
+.FAQ li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: relative;
+    right: -718px;
+    align-items: right;
+} 
+
+.label{
+    display: flex;
+    width: 100px;
+}
+
+.ctn{
+    width: 400px;
+}
+
+.container{
+    display: flex;   
+    /* align-items: center; */
+    position: relative;
+    width: 1169px; 
+    /* border: none; */
+    top: -134px;
+    left: 128px;
+    max-height:240px;
+    overflow: hidden;
+    background-color: #303030;
+    padding-left: 28px;
+} 
+
+
+.container p{
+    width: 1149px;
+}
+
+
+
+/* .ctn input[type="checkbox"]:checked ~ .container{ 
+    max-height: 0px;  */
+    /* padding: 0px 30px; */
+    /* max-height: 600px; */
+    /* visibility: visible; */
+
+
+ /* .container2{
+    display: flex;
+    position: relative;
+    width: 1169px;
+    top: -134px;
+    left: 128px;
+    height: 109px;
+    background-color: #303030;
+    padding-left: 28px;
+    
+}
+
+.container2 p{
+    width: auto;
+    padding-right: 8px;
+}
+
+.container3{
+    display: flex;
+    position: relative;
+    width: 1169px;
+    top: -134px;
+    left: 128px;
+    height: 235px;
+    background-color: #303030;
+    padding-left: 28px;
+}
+
+.container3 p{
+    width: auto;
+    padding-right:45px;
+}
+
+.container4{
+    display: flex;
+    position: relative;
+    width: 1169px;
+    top: -134px;
+    left: 128px;
+    height: 106px;
+    background-color: #303030;
+    padding-left: 28px;
+}
+
+.container4 p{
+    width: auto;
+    padding-right:45px;
+}
+
+.container5{
+    display: flex;
+    position: relative;
+    width: 1169px;
+    top: -134px;
+    left: 128px;
+    height: 106px;
+    background-color: #303030;
+    padding-left: 28px;
+}
+
+.container5 p{
+    width: auto;
+    padding-right:45px;
+}*/
+
+/* .content{
+    display: inline-block;
+} */
+
+#lp{
+    position: relative;
+    top: -113px;
+    width: auto;
+    left: 451px;
+    display: inline-block;
+    font-size: 20px;
+} 
+
+.ls{
+    position: relative;
+    top: -107px;
+    background-color: white;
+} 
+
+.footer{
+    width: 100%;
+    height: 453px;
+    
+}
+
+.call{
+    background-color: black;
+    margin-top: 40px;   
+}
+
+.call p{
+    font-size: 15px;
+    margin-left: 178px;
+} 
+
+
+/* ????????????????????????????????????????????????????????????Question section?????????????????????????????????????? */
+
+.questions h1{
+    position: relative;
+    left: 452px;
+    display: inline-block;
+    top: -177px;
+}
+
+.Questions{
+    max-width: 635px;
+    margin: 0px auto;
+}
+
+.Question{
+    position: relative;
+    background-color: #303030;
+    top: -132px;
+    left: -271px;
+    height: 100px;
+    width: 1169px;
+}
+
+.header svg{
+    width: 30px;
+    height: 30px;
+    right: 22px;
+    top: 17px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.Question .header{
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    display: block;
+}
+
+.answer{
+    padding: 0px 30px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border-bottom: 10px solid black;
+}
+
+.Question input[type="checkbox"]:checked ~ .answer{
+    padding: 0px 30px;
+    max-height: 600px;
+}
+
+.Question input[type="checkbox"]:checked ~ .header svg{
+    transform: rotate(180deg);
+}
+
+.Question input[type="checkbox"]{
+    display: none;
+}
+
+
+
+.footersection{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    /* float: right; */
+    width: 1050px;
+    padding: 10px;
+    height: 300px;
+    /* border: 1px solid white; */
+    position: relative;
+    left: 163px;
+}
+
+.one a{
+    color: rgba(255,255,255,0.7);
+    display: block;
+    padding: 10px;
+}
+
+.two a{
+    color: rgba(255,255,255,0.7);
+    display: block;
+    padding: 10px;
+}
+
+.three a {
+    /* border: 1px solid white; */
+    color: rgba(255,255,255,0.7);
+    display: block;
+    padding: 10px;
+}
+
+.four a {
+    /* border: 1px solid white; */
+    color: rgba(255,255,255,0.7);
+    display: block;
+    padding: 10px;
+}
+
+.call p a {
+    color: rgba(255,255,255,0.7);
+}
+
+.end{
+    position: relative;
+    left: 181px;
+    top: -96px;
+    /* overflow: hidden; */
+    display: inline-block;
+}
+
+.end p{
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    margin-top: 25px;
+    /* display: inline-block; */
+}
+
+/* .FAQ .content{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.FAQ input[type="radio"]:checked + label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+} */
+
+ /* @media screen and (min-width :412px){
+
+    .logo{
+       position: relative;
+       top: 58px;
+       left: -82px;
+        height: auto;
+        width: 299px;
+    }
+
+    #Languages {
+        position: relative;
+        top: 1px;
+        right: -737px;
+        width: 59px;
+        transform: scale(3.4);
+    }
+
+    .signin{
+        transform: scale(3.1);
+        position: relative;
+        right: -899px;
+    }
+
+    .backgroundimg {
+        position: relative;
+        width: 412px;
+    }
+
+}  */
+
+
+/* responsive  */
+
+/* @media screen and (max-width: 2588px) {
+    .navbar{
+        position: absolute;
+        top: 51px;
+    }
+} */
+
+
